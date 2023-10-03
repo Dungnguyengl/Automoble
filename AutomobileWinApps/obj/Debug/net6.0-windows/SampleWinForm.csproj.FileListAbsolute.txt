@@ -1,0 +1,17 @@
+D:\#Reinir\Code\CSharp\SampleWinForm\bin\Debug\net6.0-windows\SampleWinForm.exe
+D:\#Reinir\Code\CSharp\SampleWinForm\bin\Debug\net6.0-windows\SampleWinForm.deps.json
+D:\#Reinir\Code\CSharp\SampleWinForm\bin\Debug\net6.0-windows\SampleWinForm.runtimeconfig.json
+D:\#Reinir\Code\CSharp\SampleWinForm\bin\Debug\net6.0-windows\SampleWinForm.dll
+D:\#Reinir\Code\CSharp\SampleWinForm\bin\Debug\net6.0-windows\SampleWinForm.pdb
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.Form1.resources
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.csproj.GenerateResource.cache
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.AssemblyInfoInputs.cache
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.AssemblyInfo.cs
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.csproj.CoreCompileInputs.cache
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.dll
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\refint\SampleWinForm.dll
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.pdb
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.genruntimeconfig.cache
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\ref\SampleWinForm.dll
+D:\#Reinir\Code\CSharp\SampleWinForm\obj\Debug\net6.0-windows\SampleWinForm.frmCarDetails.resources
