@@ -67,6 +67,28 @@ namespace AutomobileLibrary.DataAccess
         public void Update(Car car)
         {
             Car c = GetCarByID(car.CarID);
+            if (c != null)
+            {
+                var index = CarList.IndexOf(c);
+                CarList[index] = car;
+            }
+            else
+            {
+                throw new Exception("Car does not already exist.");
+            }
+        }
+
+        public void Remove(int CarID)
+        {
+            Car p = GetCarByID(CarID);
+            if (p != null)
+            {
+                CarList.Remove(p);
+            }
+            else
+            {
+                throw new Exception("Car does not already exist.");
+            }
         }
     }
 }
