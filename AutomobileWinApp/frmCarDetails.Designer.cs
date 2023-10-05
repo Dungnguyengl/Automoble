@@ -45,6 +45,7 @@
             // btnCancel
             // 
             btnCancel.BackColor = SystemColors.ButtonShadow;
+            btnCancel.DialogResult = DialogResult.Cancel;
             btnCancel.Location = new Point(250, 297);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(94, 29);
@@ -56,6 +57,7 @@
             // btnSave
             // 
             btnSave.BackColor = SystemColors.ButtonShadow;
+            btnSave.DialogResult = DialogResult.OK;
             btnSave.Location = new Point(91, 297);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(94, 29);
@@ -168,7 +170,9 @@
             Controls.Add(lbReleaseYear);
             Controls.Add(lbCarID);
             Name = "frmCarDetails";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmCarDetails";
+            Load += frmCarDetails_Load;
             ResumeLayout(false);
             PerformLayout();
         }

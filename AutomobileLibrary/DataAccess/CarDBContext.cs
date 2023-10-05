@@ -1,5 +1,4 @@
 ﻿using AutomobileLibrary.BussinessObject;
-using AutomobileLibrary.DataAccess;
 
 namespace AutomobileLibrary.DataAccess
 {
