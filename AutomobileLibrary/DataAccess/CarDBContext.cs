@@ -160,10 +160,10 @@ namespace AutomobileLibrary.DataAccess
                        "ReleaseYear = @ReleaseYear WHERE CarID=@CarID";
                     var parameters = new List<SqlParameter>();
                     parameters.Add(DataProvider.CreateParameter("@CarID", 4, car.CarID, DbType.Int32));
-                    parameters.Add(DataProvider.CreateParameter("@CarName", 50, car.CarID, DbType.String));
-                    parameters.Add(DataProvider.CreateParameter("@Manufacturer", 50, car.CarID, DbType.String));
-                    parameters.Add(DataProvider.CreateParameter("@Price", 50, car.CarID, DbType.Decimal));
-                    parameters.Add(DataProvider.CreateParameter("@ReleaseYear", 4, car.CarID, DbType.Int32));
+                    parameters.Add(DataProvider.CreateParameter("@CarName", 50, car.CarName, DbType.String));
+                    parameters.Add(DataProvider.CreateParameter("@Manufacturer", 50, car.Manufacturer, DbType.String));
+                    parameters.Add(DataProvider.CreateParameter("@Price", 50, car.Price, DbType.Decimal));
+                    parameters.Add(DataProvider.CreateParameter("@ReleaseYear", 4, car.ReleaseYear, DbType.Int32));
                     DataProvider.Update(SQLUpdate, CommandType.Text, parameters.ToArray());
                 }
                 else
