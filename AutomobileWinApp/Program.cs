@@ -1,3 +1,6 @@
+using AutomobileLibrary.DataAccess;
+using Microsoft.Data.SqlClient;
+
 namespace AutomobileWinApp
 {
     internal static class Program
@@ -10,8 +13,8 @@ namespace AutomobileWinApp
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new frmCarManagement());
+            ApplicationConfiguration.Initialize();                        
+            Application.Run(new frmCarManagement());                                                
         }
     }
 }
