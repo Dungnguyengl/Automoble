@@ -2,3 +2,6 @@
 /bin/Debug/net7.0
 /.vs
 /AutomobileLibrary/obj
+/AutomobileWinApp/appsettings.json
+database.mdf
+database_log.ldf
